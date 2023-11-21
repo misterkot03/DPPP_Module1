@@ -285,9 +285,16 @@ a:hover{
     padding-left:0
 }
 .title-line{
-    font-size:26px;
+    font-size:20px;
     color:#fff;
     letter-spacing:6px
+}
+.nostylefooter{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-top: 10px;
+    -webkit-box-shadow: none;
 }
 hr{
     border-top:1px solid #444
@@ -423,6 +430,7 @@ img{
     .mobail-header{
         position:fixed;
         z-index:9000;
+        top: 0;
         background:#202020
     }
     .mobail-header .h-70{
